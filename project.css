@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+.navbar{
+    height:60px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:60px;
+    width:220px;
+}
+.logo{
+    background-image: url("amazon-com-logo.png");
+    background-size: cover;
+    background-color: white;
+    height:50px;
+    width: 100%;
+    margin-top:5px;
+}
+.border:hover{
+    border: 2px solid orange;
+}
+.add-first{
+    color:white;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+.add-second{
+    color:white;
+    font-size: 1rem;
+    margin-left:4px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+.border2:hover{
+    border:2px solid skyblue;
+}
+.nav-address{
+    margin:10px;
+}
+.nav-search{
+    display:flex;
+    height:50px;
+    width:50%;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-icon{
+    background-color: orange;
+    width:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50%;
+    font-size: 1.75rem;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.search-icon:hover{
+    border: 2px solid greenyellow;
+}
+.search_select{
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    width:75px;
+}
+.search_input{
+    width:450px;
+    font-size: 0.85rem;
+}
+/**box4**/
+span{
+    font-size: 0.7rem;
+}
+.nav_second{
+    font-size:0.75rem;
+    font-weight: 700;
+}
+.nav_cart i{
+    font-size: 35px;
+}
+.nav_cart{
+    font-size: 0.8rem;
+    display:flex;
+    font-weight: 700;
+}
+.cart{
+    margin-top: 10px;
+}
+/*panel*/
+.panel{
+    height:40px;
+    background-color:#222f3d;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 20px;
+}
+.panel-ops{
+    width:65%;
+    font-size:1rem;
+}
+.panel-details{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/*hero-section*/
+.hero-section{
+    background-image: url("jailer.jpg");
+    background-size: cover;
+    height:300px;
+}
+/*shop-section*/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(60, 26, 26);
+}
+.box{
+    height:300px;
+    width:23%;
+    color:black;
+    background-color: aliceblue;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+.box-image{
+    height:250px;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+.see{
+    color:skyblue;
+}
+.see:hover{
+    color:brown;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+/* footer*/
+.foot-panel1{
+    background-color: #222f33;
+    color:white;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.footer{
+    margin-top: 15px;
+}
+.foot-panel1:hover{
+    border:2px solid orange;
+
+}
+.foot-panel2{
+    background-color:#222f3d;
+    color:white;
+    height:300px;
+    display:flex;
+    justify-content: space-evenly;
+}
+ul a{
+    margin-top: 10px;
+    display:block;
+    font-size: 10px;
+}
+ul p{
+    margin-top: 40px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color:white;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid white;
+}
+.foot-panel4{
+    background-color: black;
+    color:white;
+    height:100px;
+    padding: 25px;
+    font-size: 0.7rem;
+    text-align: center;
+    /*display:flex;
+    align-items: center;*/
+}
+.pages{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.copy-right{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
